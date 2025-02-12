@@ -17,4 +17,4 @@ def convert_currency(amount, from_currency, to_currency):
 
 # Taking user input
 amount = float(input("Enter the amount: "))
-
+from_currency = input("Enter the currency to convert from (e.g., USD, EUR): ").upper()
