@@ -15,6 +15,6 @@ def convert_currency(amount, from_currency, to_currency):
         print("Error fetching conversion rate")
 
 
-#Example Usage
-convert_currency(500, "EURO", "INR")
+# Taking user input
+amount = float(input("Enter the amount: "))
 
